@@ -166,6 +166,7 @@ main {
   box-shadow: var(--light-shadow);
   transition: var(--transition);
   text-align: center;
+  margin-top:2rem;
 }
 .review:hover {
   box-shadow: var(--dark-shadow);
@@ -249,4 +250,9 @@ main {
 .random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
+}
+
+.App h1 {
+  margin:10px;
+  font-size:2.5rem;
 }
